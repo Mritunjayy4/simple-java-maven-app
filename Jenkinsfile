@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat 'mvn -B -DskipTests clean package' 
+                 bat 'C:\\Program Files\\Apache\\maven\\bin\\mvn -B -DskipTests clean package' 
             }
         }
     }
